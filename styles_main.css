@@ -1,3 +1,16 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#text1
+{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .centered
 {
     text-align: center;
