@@ -16,9 +16,14 @@
     font-weight: bold;
 }
 
+#h1
+{
+    padding-top: 3%;
+}
+
 .blog_heading
 {
-    font-size: 24px;
+    font-size: 48px;
     font-weight: bold;
     
 }
