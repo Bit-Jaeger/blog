@@ -1,5 +1,16 @@
 body {
     font-family: "Courier New", Courier, monospace !important;
+    text-align: center;
+    background-color:#1E3E62;
+    color:aliceblue;
+}
+
+#h1
+{
+    font-size: 48px;
+    font-weight: bold;
+    color:#FF6500;
+    background-color: #1E3E62;
 }
 
 #text1
@@ -33,23 +44,19 @@ body {
 
 .background
 {
-    background-color: 0B192C
+    background-color: #0B192C
     color: 000000;
 }
 
-.orange
-{
-    font-color: FF6500;
-}
 
 .light_background
 {
-    background-color: 1E3E62;
+    background-color: #1E3E62;
 }
 
 .footer
 {
-    color: FF6500;
+    color: #FF6500;
     text-align: left;
     font-size: 12px;
 }
