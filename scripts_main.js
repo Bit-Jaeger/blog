@@ -1,16 +1,18 @@
 
 
 
-let dailyVisitors = 0
+let dailyScores = 0
 let totalVisitors = 0
 document.querySelector('#add1').onclick = function(){
-
-    dailyVisitors++;
+    //adding the buttonclick
+    dailyScores++;
     totalVisitors++;
 
-    document.querySelector('#dailyVisitors').innerHTML = dailyVisitors;
-    document.querySelector('#totalVisitors').innerHTML = totalVisitors;
-    document.querySelector('#add1_Feedback').innerHTML = "Thanks for participating!";
+    document.querySelector('#dailyVisitors').textContent = dailyScores;
+
+    document.querySelector('#totalVisitors').textContent = totalVisitors;
+
+    document.querySelector('#add1_Feedback').textContent = "Thanks for participating!";
 }
 
 
