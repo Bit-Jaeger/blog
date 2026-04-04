@@ -1,9 +1,3 @@
-*
-{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
 #text1
 {
@@ -24,7 +18,7 @@
 
 .blog_heading
 {
-    font-size: large;
+    font-size: 24px;
     font-weight: bold;
     
 }
@@ -42,4 +36,11 @@
 .light_background
 {
     color: 1E3E62;
+}
+
+.footer
+{
+    color: FF6500;
+    text-align: left;
+    font-size: 12px;
 }

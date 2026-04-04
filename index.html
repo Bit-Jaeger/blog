@@ -2,6 +2,7 @@
 
 <head>
     <link href="styles_main.css" rel="Stylesheet">
+    <script src="scripts_main.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blog</title>
@@ -9,10 +10,47 @@
 
 
 <body class="background">
-    <h1 class="blog_heading orange">
+    <h1 class="blog_heading orange centered">
         Blog
     </h1>
     <div> Test test! </div>
-    <div id="text1"> Wenn du das lesen kannst, dann schreib mir: "Petri heil" </div>
+
+    <div id="text1"> Everything on this page is fully written by a humand being (me). This page is going to be a mix of a blog or just a personal page that I want to use to fulfill my urge of speaking out and 
+        connect. For the Future I am planning on adding:
+        <table id="todo">
+            <tr>
+                animated social links
+            </tr>
+            <tr>
+                Link to my personal cv
+            </tr>
+            <tr>
+                Making the web page more aesthetically pleasing to be at
+            </tr>
+
+
+        </table>" 
+    </div>
+
+    <h2>Interactive table</h2>
+        <table class="light_background">
+            <tr>
+                <td>Visitors today</td>
+                <td>Visitors total</td>
+            </tr>
+            <tr>
+                <td id="dailyVisitors">0</td>
+                <td id="totalVisitors">0</td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="add1">I was here</button>
+                </td>
+            </tr>
+        </table>
+        <p id="add1_Feedback"></p>
 </body>
+
+<footer class="footer background">Made by Johannes</footer>
+
 </html>
