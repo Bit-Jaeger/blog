@@ -1,12 +1,16 @@
 body {
+    border-radius: 2%;
+    border-color:#FF6500;
     font-family: "Courier New", Courier, monospace !important;
     text-align: center;
-    background-color:#1E3E62;
+    background-color:#0B192C;
     color:aliceblue;
 }
 
 h1
 {
+    border-radius: 2%;
+    border-color: #1E3E62;
     font-size: 48px;
     font-weight: bold;
     color:#FF6500;
@@ -19,16 +23,28 @@ h1
     padding-right: 2%;
 }
 
+#todo
+{
+    text-align: center;
+    text-indent: 5%;
+}
+
+#InteractiveTable
+{
+    text-align: center;
+    background-color:#1E3E62;
+    Font-weight: bold;
+
+}
+
+
 .large
 {
     font-size: large;
     font-weight: bold;
 }
 
-#h1
-{
-    padding-top: 3%;
-}
+
 
 .blog_heading
 {
