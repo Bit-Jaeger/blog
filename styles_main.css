@@ -5,7 +5,7 @@ body {
     color:aliceblue;
 }
 
-#h1
+h1
 {
     font-size: 48px;
     font-weight: bold;
@@ -17,11 +17,6 @@ body {
 {
     padding-left: 2%;
     padding-right: 2%;
-}
-
-.centered
-{
-    text-align: center !important;
 }
 
 .large
