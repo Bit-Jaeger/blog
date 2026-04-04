@@ -39,12 +39,12 @@ body {
 
 .orange
 {
-    color: FF6500;
+    font-color: FF6500;
 }
 
 .light_background
 {
-    color: 1E3E62;
+    background-color: 1E3E62;
 }
 
 .footer
