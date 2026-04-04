@@ -29,11 +29,13 @@ h1
     text-indent: 5%;
 }
 
-#InteractiveTable
+td
 {
     text-align: center;
     background-color:#1E3E62;
     Font-weight: bold;
+    border-color:#FF6500;
+    border-radius:2%;
 
 }
 
