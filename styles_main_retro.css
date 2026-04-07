@@ -1,10 +1,10 @@
 body {
     border-radius: 2%;
-    border-color:#FF6500;
-    background-color: #091413;
+    border-color:rgb(8, 217, 214);
+    background-color: rgb(37, 42, 52);
     font-family: "Courier New", Courier, monospace !important;
     text-align: center;
-    color:aliceblue;
+    color:rgb(234, 234, 234);
 }
 
 h1
@@ -13,6 +13,14 @@ h1
     font-size: 48px;
     font-weight: bold;
     color:#285A48;
+}
+
+h2
+{
+    border-bottom: 2%;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(255, 46, 99);
 }
 
 div
@@ -32,7 +40,7 @@ a:visited
 }
 a 
 {
-    color:#285A48;;
+    color:rgb(8, 217, 214);
 }
   
 a:hover {
@@ -59,14 +67,9 @@ a:hover {
 }
 
 
-.light_background
-{
-    background-color: #1E3E62;
-}
-
 .footer
 {
-    color: rgb(64, 138, 113);
+    color: rgb(8, 217, 214);
     text-align: left;
     font-size: 12px;
 }
