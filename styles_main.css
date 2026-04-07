@@ -21,11 +21,14 @@ div
     max-width: 800px;
     margin: 0 auto;
 }
+
+
 a, u{
     text-decoration: none;
 }
 a {
     color:#FF6500;
+    color: inherit;
 
   }
   
@@ -49,29 +52,6 @@ a:hover {
     width:100%;
     margin: 0 auto;
 
-}
-
-
-
-.large
-{
-    font-size: large;
-    font-weight: bold;
-}
-
-
-
-.blog_heading
-{
-    font-size: 48px;
-    font-weight: bold;
-    
-}
-
-.background
-{
-    background-color: #0B192C
-    color: 000000;
 }
 
 
