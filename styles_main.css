@@ -14,7 +14,24 @@ h1
     font-size: 48px;
     font-weight: bold;
     color:#FF6500;
-    background-color: #1E3E62;
+}
+
+div
+{
+    max-width: 800px;
+    margin: 0 auto;
+}
+a, u{
+    text-decoration: none;
+}
+a {
+    color:#FF6500;
+
+  }
+  
+a:hover {
+    font-weight: bold;  
+    text-decoration-line: underline;
 }
 
 #text1
@@ -25,13 +42,12 @@ h1
 
 #todo
 {
-    -moz-box-align: center;
     text-align: left;
-    background-color:#1E3E62;
     Font-weight: bold;
     border-color:#FF6500;
     border-radius:2%;
     width:100%;
+    margin: 0 auto;
 
 }
 
