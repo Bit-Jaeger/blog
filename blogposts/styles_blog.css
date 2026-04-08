@@ -1,7 +1,98 @@
+.blog_link{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.container
+{
+    display: flex;
+    position: relative;
+}
+.box1{
+    flex: 0.03;
+    background-color: rgb(255, 46, 99);
+}
+.box2{
+    flex: 0.03;
+    background-color:rgb(8, 217, 214);
+}
+.box3{
+    flex: 0.03;
+    background-color:rgb(234, 234, 234);
+}
+.box4{
+    flex:0.03;
+    background-color: rgb(176, 228, 204);
+}
+.box5{
+    flex:0.03;
+    background-color: rgb(64, 138, 113);
+}
+.box6{
+    flex:0.03;
+    background-color: 
+}
+
+.content
+{
+    flex: 5;
+
+}
+
+@media (max-width:400px)
+{
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+
 body
 {
-    max-width: 600px;
+    max-width: 80%;
     margin: 0 auto;
     scroll-behavior: smooth;
-    font-family: "Courier New", Courier, monospace
+    font-family: "Courier New", Courier, monospace;
+    background-color:rgb(37, 42, 52);
 }
+
+h2, h3
+{
+    text-align: left;
+    font-weight: bold;
+    color: rgb(255, 46, 99);
+    font-site: 24px;
+}
+
+h1{
+    text-align:left;
+}
+
+p
+{
+    color: rgb(234, 234, 234);
+    text-align: left;
+}
+
+
+
+a, u
+{
+    text-decoration: none;
+}
+a:visited
+{
+    color:rgb(176, 228, 204);
+}
+a 
+{
+    color:rgb(8, 217, 214);
+}
+  
+a:hover {
+    color: rgb(176, 228, 204);
+    font-weight: bold;  
+    text-decoration-line: underline;
+}
+
