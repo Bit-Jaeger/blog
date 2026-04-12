@@ -3,8 +3,7 @@
     font-size: 32px;
 }
 
-.container
-{
+.container{
     display: flex;
     position: relative;
 }
@@ -27,11 +26,7 @@
 .box5{
     flex:0.03;
     background-color: rgb(64, 138, 113);
-}
-.box6{
-    flex:0.03;
-    background-color: 
-}
+
 
 .content
 {
@@ -57,8 +52,7 @@ body
     background-color:rgb(37, 42, 52);
 }
 
-h2, h3
-{
+h2, h3{
     text-align: left;
     font-weight: bold;
     color: rgb(255, 46, 99);
@@ -69,24 +63,20 @@ h1{
     text-align:left;
 }
 
-p
-{
+p{
     color: rgb(234, 234, 234);
     text-align: left;
 }
 
 
 
-a, u
-{
+a, u{
     text-decoration: none;
 }
-a:visited
-{
+a:visited{
     color:rgb(176, 228, 204);
 }
-a 
-{
+a {
     color:rgb(8, 217, 214);
 }
   
@@ -96,3 +86,4 @@ a:hover {
     text-decoration-line: underline;
 }
 
+}
