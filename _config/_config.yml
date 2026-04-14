@@ -1,0 +1,11 @@
+title: blog
+email: johannes.riedel2000@gmail.com
+description: "my journey of becoming a cs-grad, self-hosting, webdevelopment and tinkering."
+
+url: "https://blog.jaeger.link"
+baseurl: ""
+
+include: [assets, _includes, _layouts, _posts]
+
+markdown: kramdown
+highlighter: rouge
