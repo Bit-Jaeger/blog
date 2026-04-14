@@ -37,6 +37,11 @@ div
     margin: 0 auto;
 }
 
+.container_socials{
+    display:flex;
+    position: relative;
+}
+
 
 a, u
 {
@@ -48,11 +53,11 @@ a:visited
 }
 a 
 {
-    color:rgb(8, 217, 214);
+    color:rgb(176, 228, 204);
 }
   
 a:hover {
-    color: rgb(176, 228, 204);
+    color: rgb(119, 219, 172);
     font-weight: bold;  
     text-decoration-line: underline;
 }
