@@ -83,6 +83,23 @@
 
 
     <h2>/blogposts</h2>
+
+    <h3>Post Count: {{ site.posts | size }}</h2>
+    <ul class="post-feed">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+            <a href="{{ post.url | relative_url }}" class="blog_link">
+              {{ post.title }}
+            </a>
+            <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+
+
+
+    <h2>/old blogposts</h2>
     <div>
         <a href={{"/old_posts/homelab.html" | relative_url}}>starting my homelab</a>
     </div>
