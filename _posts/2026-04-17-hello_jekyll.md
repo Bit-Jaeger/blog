@@ -1,6 +1,6 @@
 ---
 layout: default_blog
-title: hello_jekyll
+title: hello world via jekyll
 ---
 
 ## /This is supposed to be a <h2> heading
