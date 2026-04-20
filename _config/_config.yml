@@ -5,7 +5,7 @@ description: "my journey of becoming a cs-grad, self-hosting, webdevelopment and
 url: "https://blog.jaeger.link"
 baseurl: ""
 
-include: [assets, _includes, _layouts, _posts]
+include: [favicon.ico, assets, _includes, _layouts, _posts]
 
 markdown: kramdown
 highlighter: rouge

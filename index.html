@@ -7,7 +7,7 @@
 <head>
     <link id="styles" href={{"/assets/css/styles_main_retro.css" | relative_url}} rel="Stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href={{"/favicon.ico | relative_url" }} rel="shortcut icon" type="image/x-icon">
+    <link href={{"/favicon.ico" | relative_url }} rel="shortcut icon" type="image/x-icon">
     <script src="scripts_main.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,7 +83,7 @@
     <h2>/blogposts</h2>
 
     <h3>Post Count: {{ site.posts | size }}</h2>
-    <ul class="post-feed">
+    <ul class="post-feed" style="list-style-type: none">
         {% for post in site.posts %}
           <li>
             <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
