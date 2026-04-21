@@ -1,4 +1,4 @@
-const themes = ["/assets/css/styles_main.css", "/assets/css/styles_main_retro.css"];
+const themes = ["./assets/css/styles_main.css", "./assets/css/styles_main_retro.css"];
 let theme_count = 0;
 
 
