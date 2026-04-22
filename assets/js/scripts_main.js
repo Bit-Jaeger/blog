@@ -11,5 +11,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             document.getElementById('styles').setAttribute('href', styles_variable);
             console.log("theme variable changed.")
         }
+    
 }
 )
