@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "quote": "The art of debugging is figuring out what you really told your program to do.",
+        "author": "Andrew Singer"
+    }
+    {
+        "id": "2",
+        "quote": "The biggest issue you'll face in security, and in life, is your own stupidity.", 
+        "author": "Jonathan Walpole"
+    }
+    {
+        "id": "3",
+        "quote": "The best programs are written so that computing machines can perform them quickly and so that human beings can understand them clearly. A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.",
+        "author": "Donald E. Knuth"
+    }
+    {
+        "id": "4",
+        "quote": "...if you aren't, at any given time, scandalized by code you wrote five or even three years ago, you're not learning anywhere near enough",
+        "author": "Nick Black"
+    }
+    {
+        "id": "5",
+        "quote": "You are not reading this book because a teacher assigned it to you, you are reading it because you have a desire to learn, and wanting to learn is the biggest advantage you can have.",
+        "author": "Cory Althoff"
+    }
+    {
+        "id": "6",
+        "quote": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+        "author": "Steven Hawking"
+    }
+    {
+        "id": "7",
+        "quote": "The only way to learn a new programming language is by writing programs in it.",
+        "author": "Dennis Ritchie"
+    }
+    {
+        "id": "8",
+        "quote": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
+        "author": "Bill Gates"
+    }
+]
