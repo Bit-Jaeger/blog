@@ -16,8 +16,38 @@ document.addEventListener('DOMContentLoaded', (event) => {
 )
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    //When Document is loaded it starts the script
     const display_quote = document.getElementById('quote')
+    //When Document is loaded it starts the script
+
+    //getting the data to objects for js
+    fetch('/assets/json/quotes.json')
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+            displayRandomQuote(data);
+        })
+
+
+
+
+    function displayRandomQuote(data){
+        const quoteCount = data.length;
+        const randomIndex = Math.floor(Math.random() * quoteCount);
+        const randomQuote = data[randomIndex].quote;
+        const randomQuoteAuthor = data[randomIndex].author;
+
+
+        display_quote.textContent = randomQuote + '—' + randomQuoteAuthor;
+
+    }
+
+
+
+
+
+
     document.querySelector('#submit_text').onclick = function()
     {
         let submitted_text = document.querySelector('#input').value;
