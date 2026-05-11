@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     //getting the data to objects for js
     fetch('/assets/json/quotes.json')
         .then(response => {
+            console.log("The data got fetched")
             return response.json();
         })
         .then(data => {
