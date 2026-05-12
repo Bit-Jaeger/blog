@@ -36,11 +36,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     function displayRandomQuote(data){
         const quoteCount = data.length;
         const randomIndex = Math.floor(Math.random() * quoteCount);
+        
         const randomQuote = data[randomIndex].quote;
         const randomQuoteAuthor = data[randomIndex].author;
 
 
-        display_quote.textContent = randomQuote + '—' + randomQuoteAuthor;
+        display_quote.textContent = randomQuote + ' —' + randomQuoteAuthor;
 
     }
-)
+})
