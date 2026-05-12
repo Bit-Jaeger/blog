@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 )
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    const display_quote = document.getElementById('quote')
     //When Document is loaded it starts the script
 
     //getting the data to objects for js
@@ -34,6 +33,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
 function displayRandomQuote(data){
+    const display_quote = document.getElementById('quote');
+    
     const quoteCount = data.length;
     const randomIndex = Math.floor(Math.random() * quoteCount);
 
