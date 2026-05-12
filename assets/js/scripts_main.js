@@ -33,8 +33,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
 function displayRandomQuote(data){
-    const display_quote = document.getElementById('quote');
-    
     const quoteCount = data.length;
     const randomIndex = Math.floor(Math.random() * quoteCount);
 
@@ -42,6 +40,6 @@ function displayRandomQuote(data){
     const randomQuoteAuthor = data[randomIndex].author;
 
 
-    display_quote.textContent = randomQuote + ' —' + randomQuoteAuthor;
+    document.getElementById('quote').textContent = randomQuote + ' —' + randomQuoteAuthor;
 
 }   
