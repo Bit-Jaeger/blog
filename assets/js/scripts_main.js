@@ -43,24 +43,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
         display_quote.textContent = randomQuote + '—' + randomQuoteAuthor;
 
     }
-
-
-
-
-
-
-    document.querySelector('#submit_text').onclick = function()
-    {
-        let submitted_text = document.querySelector('#input').value;
-
-        if(submitted_text == "")
-        {
-            display_quote.textContent = "Please provide a text before trying to submit anything.";
-        }
-        else{
-            display_quote.textContent = submitted_text;
-        }   
-    }
-
-    }
 )
