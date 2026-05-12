@@ -30,18 +30,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
             displayRandomQuote(data);
         })
     }
-
-
-
-    function displayRandomQuote(data){
-        const quoteCount = data.length;
-        const randomIndex = Math.floor(Math.random() * quoteCount);
-
-        const randomQuote = data[randomIndex].quote;
-        const randomQuoteAuthor = data[randomIndex].author;
-
-
-        display_quote.textContent = randomQuote + ' —' + randomQuoteAuthor;
-
-    }   
 )
+
+
+function displayRandomQuote(data){
+    const quoteCount = data.length;
+    const randomIndex = Math.floor(Math.random() * quoteCount);
+
+    const randomQuote = data[randomIndex].quote;
+    const randomQuoteAuthor = data[randomIndex].author;
+
+
+    display_quote.textContent = randomQuote + ' —' + randomQuoteAuthor;
+
+}   
