@@ -38,5 +38,30 @@
         "id": "8",
         "quote": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
         "author": "Bill Gates"
+    },
+    {
+        "id": "9",
+        "quote": "No effort is wasted.",
+        "author": "Hank Green"
+    },
+    {
+        "id": "10",
+        "quote": "Your life is not about getting some f***ing task done, it is about building a YOU.",
+        "author": "Hank Green"
+    },
+    {
+        "id": "11",
+        "quote": "I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me.",
+        "author": "Ralph Waldo Emerson"
+    },
+    {
+        "id": "12",
+        "quote": "Sucking at something is the first step towards being kinda good at something.",
+        "author": "Jake the Dog"
+    },
+    {
+        "id": "13",
+        "quote": "Education is about making your head an interesting place to spend the rest of your life.",
+        "author": "unknown"
     }
 ]
