@@ -1,6 +1,6 @@
 ---
 layout: default_blog
-title: building small projects
+title: establishing routines
 ---
 
 ## /what is a 'routine'?
